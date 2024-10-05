@@ -1,4 +1,1 @@
 # Loan-Approval-Prediction
-
-
-

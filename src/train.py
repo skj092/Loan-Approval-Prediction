@@ -15,7 +15,6 @@ import numpy as np
 start_time = time.time()
 path = Path("/home/sonujha/rnd/Loan-Approval-Prediction/data/")
 df = pd.read_csv(path/'train.csv')
-df = df.sample(frac=0.01)
 print(f"Loaded the data in {time.time() - start_time:.2f} seconds")
 
 # Convert categorical variables into numerical variables
